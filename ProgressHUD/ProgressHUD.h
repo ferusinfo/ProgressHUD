@@ -13,7 +13,7 @@
 #define HUD_STATUS_FONT			[UIFont boldSystemFontOfSize:16]
 #define HUD_STATUS_COLOR		[UIColor blackColor]
 
-#define HUD_SPINNER_COLOR		[UIColor colorWithRed:126.0/255.0 green:189.0/255.0 blue:38.0/255.0 alpha:1.0]
+#define HUD_SPINNER_COLOR		[UIColor colorWithRed:0.36 green:0.75 blue:0.89 alpha:1]
 #define HUD_BACKGROUND_COLOR	[UIColor colorWithWhite:0 alpha:0.1]
 #define HUD_VIEW_BACKGROUND_COLOR [UIColor colorWithWhite:0 alpha:0.5]
 
