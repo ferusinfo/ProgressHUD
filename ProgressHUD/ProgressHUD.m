@@ -143,7 +143,7 @@
 		{
 			CGRect frame = CGRectMake(window.frame.origin.x, window.frame.origin.y, window.frame.size.width, window.frame.size.height);
 			background = [[UIView alloc] initWithFrame:frame];
-			background.backgroundColor = [UIColor clearColor];
+			background.backgroundColor = [UIColor colorWithWhite:0 alpha:0.2];
 			[window addSubview:background];
 			[background addSubview:hud];
 		}
@@ -247,10 +247,10 @@
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
 	//---------------------------------------------------------------------------------------------------------------------------------------------
-	if (orientation == UIInterfaceOrientationPortrait)				rotate = 0.0;
-	if (orientation == UIInterfaceOrientationPortraitUpsideDown)	rotate = M_PI;
-	if (orientation == UIInterfaceOrientationLandscapeLeft)			rotate = - M_PI_2;
-	if (orientation == UIInterfaceOrientationLandscapeRight)		rotate = + M_PI_2;
+    if (orientation == UIInterfaceOrientationPortrait) rotate = 0.0;
+    if (orientation == UIInterfaceOrientationPortraitUpsideDown) rotate = M_PI_2;
+    if (orientation == UIInterfaceOrientationLandscapeLeft) rotate = 2*M_PI;
+    if (orientation == UIInterfaceOrientationLandscapeRight) rotate = - M_PI_2;
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	hud.transform = CGAffineTransformMakeRotation(rotate);
 }
