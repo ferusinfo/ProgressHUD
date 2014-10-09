@@ -27,6 +27,7 @@
 + (ProgressHUD *)shared;
 
 + (void)dismiss;
++ (void)dismissWithCompletition:(void(^)())completionBlock;
 
 + (void)show:(NSString *)status;
 + (void)show:(NSString *)status Interaction:(BOOL)Interaction;
