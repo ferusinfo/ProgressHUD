@@ -15,6 +15,7 @@
 
 #define HUD_SPINNER_COLOR		[UIColor colorWithRed:126.0/255.0 green:189.0/255.0 blue:38.0/255.0 alpha:1.0]
 #define HUD_BACKGROUND_COLOR	[UIColor colorWithWhite:0 alpha:0.1]
+#define HUD_VIEW_BACKGROUND_COLOR [UIColor colorWithWhite:0 alpha:0.5]
 
 #define HUD_IMAGE_SUCCESS		[UIImage imageNamed:@"ProgressHUD.bundle/success-color.png"]
 #define HUD_IMAGE_ERROR			[UIImage imageNamed:@"ProgressHUD.bundle/error-color.png"]
