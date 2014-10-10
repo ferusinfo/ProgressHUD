@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ProgressHUD'
-  s.version      = '2.2.1'
+  s.version      = '2.2.2'
   s.summary      = 'ProgressHUD is a lightweight and easy-to-use HUD for iOS 7. (Objective-C)'
   s.homepage     = 'https://github.com/ferusinfo/ProgressHUD'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
